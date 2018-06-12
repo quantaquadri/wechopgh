@@ -1,10 +1,4 @@
-/* ----------------------------------------------
-:: Template Name: Caviar - Premium Restaurant Template
-:: Template Author: Colorlib
-:: Template Author URI: https://colorlib.com
-:: Version: v1.0
-:: Last Updated: 12-13-2017
----------------------------------------------- */
+
 
 /* Fonts */
 
@@ -664,7 +658,7 @@ li {
     width: 100%;
 }
 
-.single-hero-slides:after {
+/*.single-hero-slides:after {
     position: absolute;
     width: calc(50% - 112px);
     background-color: rgba(0, 0, 0, 0.6);
@@ -684,7 +678,7 @@ li {
     background-color: rgba(0, 0, 0, 0.3);
     top: 0;
     left: 0;
-}
+}*/
 
 .hero-content h2 {
     font-size: 52px;
@@ -773,7 +767,7 @@ li {
 
 .form-wrap {
     background: #fff;
-    padding: 100px 40px;
+    padding: 70px 40px;
 }
 
  .form-wrap .form-control {
