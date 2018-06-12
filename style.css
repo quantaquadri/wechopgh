@@ -368,10 +368,20 @@ li {
     width: 100%;
 }
 
+.single-hero-slides:after {
+    position: absolute;
+    width: calc(100%);
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    top: 0;
+    left: 0;
+    content: '';
+    z-index: -1;
+}
 
 
 .hero-content h2 {
-    font-size: 52px;
+    font-size: 42px;
     color: #fff;
     margin-bottom: 20px;
 }
