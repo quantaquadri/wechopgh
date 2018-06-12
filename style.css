@@ -174,7 +174,7 @@ ol {
     font-size: 18px;
     right: 30px;
     width: 40px;
-    background-color: #ff0000;
+    background-color: #eb3349;
     color: #fff;
     text-align: center;
     height: 40px;
@@ -226,231 +226,6 @@ li {
     margin-bottom: 0;
 }
 
-#preloader {
-    overflow: hidden;
-    background-color: #fff;
-    height: 100%;
-    left: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 99999;
-}
-
-#preloader .preload-icons {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 50px;
-    height: 50px;
-    z-index: 8;
-    background-color: transparent;
-    margin-top: -25px;
-    margin-left: -25px;
-    text-align: center;
-    line-height: 50px;
-}
-
-.preload-icons > img {
-    position: absolute;
-    top: 50%;
-    margin-top: -16px;
-    left: 50%;
-    margin-left: -16px;
-}
-
-.caviar-load {
-    -webkit-animation: 6000ms linear 0s normal none infinite running caviar-load;
-    animation: 6000ms linear 0s normal none infinite running caviar-load;
-    background: transparent none repeat scroll 0 0;
-    border-color: #ebebeb #ebebeb #ff0000;
-    border-radius: 50%;
-    border-style: solid;
-    border-width: 2px;
-    height: 70px;
-    position: relative;
-    width: 70px;
-    z-index: 9;
-    top: 50%;
-    left: 50%;
-    margin-top: -35px;
-    margin-left: -35px;
-}
-
-@-webkit-keyframes caviar-load {
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    100% {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes caviar-load {
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    100% {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-}
-
-#preloader .preload-icons .preload-1 {
-    -webkit-animation: 6000ms linear 0s normal none infinite running load-1;
-    animation: 6000ms linear 0s normal none infinite running load-1;
-}
-
-@-webkit-keyframes load-1 {
-    0% {
-        opacity: 1;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    }
-    30% {
-        opacity: 1;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
-    }
-    33.333% {
-        opacity: 0;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
-    }
-    100% {
-        opacity: 0;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
-    }
-}
-
-@keyframes load-1 {
-    0% {
-        opacity: 1;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    }
-    30% {
-        opacity: 1;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
-    }
-    33.333% {
-        opacity: 0;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
-    }
-    100% {
-        opacity: 0;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
-    }
-}
-
-#preloader .preload-icons .preload-2 {
-    -webkit-animation: 6000ms linear 0s normal none infinite running load-2;
-    animation: 6000ms linear 0s normal none infinite running load-2;
-}
-
-@-webkit-keyframes load-2 {
-    0% {
-        opacity: 0;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    }
-    27% {
-        opacity: 0;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
-    }
-    33.333% {
-        opacity: 1;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
-    }
-    60% {
-        opacity: 1;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
-    }
-    66.666% {
-        opacity: 0;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
-    }
-    100% {
-        opacity: 0;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
-    }
-}
-
-@keyframes load-2 {
-    0% {
-        opacity: 0;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    }
-    27% {
-        opacity: 0;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
-    }
-    33.333% {
-        opacity: 1;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
-    }
-    60% {
-        opacity: 1;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
-    }
-    66.666% {
-        opacity: 0;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
-    }
-    100% {
-        opacity: 0;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
-    }
-}
-
-#preloader .preload-icons .preload-3 {
-    -webkit-animation: 6000ms linear 0s normal none infinite running load-3;
-    animation: 6000ms linear 0s normal none infinite running load-3;
-}
-
-@-webkit-keyframes load-3 {
-    0% {
-        opacity: 0;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    }
-    60% {
-        opacity: 0;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
-    }
-    66.666% {
-        opacity: 1;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
-    }
-    94% {
-        opacity: 1;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
-    }
-    100% {
-        opacity: 0;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
-    }
-}
-
-@keyframes load-3 {
-    0% {
-        opacity: 0;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    }
-    60% {
-        opacity: 0;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
-    }
-    66.666% {
-        opacity: 1;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
-    }
-    94% {
-        opacity: 1;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
-    }
-    100% {
-        opacity: 0;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
-    }
-}
 
 .bg-img {
     background-position: center center;
@@ -505,73 +280,6 @@ li {
     margin-right: 10px;
 }
 
-/* Search Area CSS */
-
-.caviar-search-form {
-    width: 100%;
-    position: fixed;
-    z-index: 99999;
-    height: 100px;
-    background-color: #000;
-    top: -200px;
-    left: 0;
-    -webkit-transition-duration: 500ms;
-    transition-duration: 500ms;
-    overflow-x: hidden;
-}
-
-.search-form-on .caviar-search-form {
-    top: 0;
-}
-
-.sticky .caviar-search-form {
-    height: 70px;
-}
-
-.caviar-search-form form {
-    position: relative;
-    z-index: 1;
-}
-
-.caviar-search-form form input {
-    width: 100%;
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    background-color: transparent;
-    height: 50px;
-    border-radius: 5px;
-    color: #fff;
-    padding: 0 20px;
-    font-size: 14px;
-}
-
-#closeBtn {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    z-index: 9;
-    background-color: transparent;
-    margin-top: -15px;
-    top: 50%;
-    border-radius: 50%;
-    right: 30px;
-    color: #fff;
-    cursor: pointer;
-    text-align: center;
-    opacity: 0.5;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-    -webkit-transition-duration: 500ms;
-    transition-duration: 500ms;
-}
-
-#closeBtn:hover {
-    opacity: 1;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-}
-
-#closeBtn > i {
-    line-height: 30px;
-    font-size: 28px;
-}
 
 /* Header & Menu Area CSS */
 
@@ -615,7 +323,11 @@ li {
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-item.active .nav-link {
-    color: #ff0000;
+    color: #eb3349;
+}
+
+.navbar-brand img {
+    height: 30px;
 }
 
 .caviar-search-btn > a {
@@ -740,9 +452,6 @@ li {
     margin-bottom: 0;
 }
 
-
-
-
 .form-wrap {
     background: #fff;
     padding: 70px 40px;
@@ -751,7 +460,7 @@ li {
  .form-wrap .form-control {
     border-radius: 0px;
     margin-bottom: 10px;
-    border-color: #eeeeee;
+    border-color: #777;
     font-size: 13px;
     font-weight: 300;
     padding: 0.575rem 0.75rem;
@@ -775,7 +484,7 @@ li {
 }
 
 .form-wrap .primary-btn {
-    background: #f42f2c;
+    background: #eb3349;
     line-height: 42px;
     padding-left: 30px;
     padding-right: 30px;
@@ -814,7 +523,7 @@ li {
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #ff0000;
+    color: #eb3349;
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
     margin-bottom: 30px;
@@ -863,19 +572,6 @@ li {
     overflow-x: hidden
 }
 
-/*.caviar-dish-menu:before {
-    position: absolute;
-    font-size: 150px;
-    right: -10%;
-    margin: 0;
-    content: 'Special';
-    line-height: 1;
-    top: 35%;
-    -webkit-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-    color: rgba(0, 0, 0, 0.05);
-    font-weight: 700;
-}*/
 
 .caviar-single-dish {
     padding: 50px 50px 30px;
@@ -924,11 +620,11 @@ li {
 }
 
 .caviar-single-dish:hover .dish-info .dish-name {
-    color: #ff0000;
+    color: #eb3349;
 }
 
 .caviar-single-dish:hover .dish-info .dish-price {
-    background-color: #ff0000;
+    background-color: #eb3349;
 }
 
 .caviar-single-dish:after {
@@ -956,18 +652,6 @@ li {
     border: none;
     z-index: 9;
 }
-
-/*.caviar-dish-menu .row .col-12:first-child .caviar-single-dish:before {
-    position: absolute;
-    height: 100%;
-    background-image: url(img/core-img/special-dots.png);
-    width: calc(100% - 50px);
-    content: '';
-    top: -50px;
-    left: -50px;
-    z-index: -1;
-    background-repeat: no-repeat;
-}*/
 
 
 /* Footer Area CSS */
