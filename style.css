@@ -296,7 +296,7 @@ li {
 }
 
 .sticky .header_area {
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(255, 255, 255);
     height: 70px;
     z-index: 9999;
 }
@@ -317,7 +317,7 @@ li {
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 15px;
     padding-left: 15px;
-    color: #fff;
+    color: #feb860;
     font-size: 14px;
 }
 
@@ -573,6 +573,12 @@ li {
     background-repeat: no-repeat;
 }
 
+.caviar-chop-area {
+    background-color: #eb3349;
+    padding: 40px 0;
+    text-align: center;
+}
+
 /* Dish Menu Area CSS */
 
 .caviar-dish-menu {
@@ -664,29 +670,126 @@ li {
 }
 
 
-/* Footer Area CSS */
+/*Footer 2.0*/
 
-.caviar-footer-area {
-    background-color: #333333;
-    padding: 40px 0;
+.footer-widget-wrap {
+    background: #eb3349;
+    color: #fff;
+}
+
+.section-gap {
+    padding: 120px 0;
+}
+
+.footer-area .single-footer-widget h4 {
+    color: #fff;
+}
+
+.footer-area h4 {
+    padding-bottom: 30px;
+}
+
+.ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.single-footer-widget .hr-list li {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(238,238,238,0.3);
+}
+
+
+.footer-area .number {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+
+.single-footer-widget .navbar-form {
+    width: 100%;
+}
+
+.single-footer-widget .navbar-form .add-on {
+    background: #f9f9ff;
+    border-radius: 20px;
+    border: 1px solid #fff;
+}
+
+.single-footer-widget .navbar-form .form-control {
+    border: none;
+    border-radius: 20px;
+    font-size: 13px;
+    background-color: #f9f9ff;
+    border: 1px solid #f9f9ff;
+}
+
+.single-footer-widget .navbar-form .genric-btn {
+    padding: 0px;
+}
+
+.footer-area .genric-btn {
+    background: #f42f2c;
+    border: none;
+    border-radius: 57px;
+    height: 36px;
+    line-height: 41px;
+}
+.genric-btn {
+    display: inline-block;
+    outline: none;
+    line-height: 40px;
+    padding: 0 30px;
+    font-size: .8em;
     text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
 }
 
-.caviar-chop-area {
-    background-color: #eb3349;
-    padding: 40px 0;
+.single-footer-widget .navbar-form .lnr {
+    padding: 11px;
+    font-weight: 900;
+    font-size: 13px !important;
+    color: #fff;
+}
+
+.footer-bottom-wrap {
+    background: #222;
+    color: #fff;
+}
+
+.footer-bottom {
+    padding: 15px 0px;
+}
+
+.footer-text a, .footer-text i {
+    color: #feb860;
+}
+
+.footer-bottom .social-icons li {
+    display: inline-block;
+
+}
+
+.footer-bottom .social-icons li a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
     text-align: center;
+    background: #111111;
+    color: #fff;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
 }
-
-
-.caviar-footer-area .navbar-brand {
-    font-size: 30px;
-    margin-bottom: 40px;
-}
-
-.footer-text > p {
-    color: rgba(255, 255, 255, 0.2);
-    font-size: 14px;
-    margin-bottom: 0;
-}
-
