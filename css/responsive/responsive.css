@@ -127,7 +127,7 @@
 @media (min-width: 320px) and (max-width: 767px) {
     .navbar-toggler {
         border: 2px solid #fff;
-        color: #fff;
+        color: #000;
         margin: 26px 0
     }
     .sticky .navbar-toggler {
