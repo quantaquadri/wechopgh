@@ -1,5 +1,3 @@
-
-
 /* Fonts */
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Work+Sans:400,500,600,700');
@@ -658,27 +656,7 @@ li {
     width: 100%;
 }
 
-/*.single-hero-slides:after {
-    position: absolute;
-    width: calc(50% - 112px);
-    background-color: rgba(0, 0, 0, 0.6);
-    height: 100%;
-    top: 0;
-    left: 0;
-    content: '';
-    z-index: -1;
-}
 
-.single-hero-slides:before {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -1;
-    content: '';
-    background-color: rgba(0, 0, 0, 0.3);
-    top: 0;
-    left: 0;
-}*/
 
 .hero-content h2 {
     font-size: 52px;
@@ -885,7 +863,7 @@ li {
     overflow-x: hidden
 }
 
-.caviar-dish-menu:before {
+/*.caviar-dish-menu:before {
     position: absolute;
     font-size: 150px;
     right: -10%;
@@ -897,7 +875,7 @@ li {
     transform: rotate(-90deg);
     color: rgba(0, 0, 0, 0.05);
     font-weight: 700;
-}
+}*/
 
 .caviar-single-dish {
     padding: 50px 50px 30px;
@@ -979,7 +957,7 @@ li {
     z-index: 9;
 }
 
-.caviar-dish-menu .row .col-12:first-child .caviar-single-dish:before {
+/*.caviar-dish-menu .row .col-12:first-child .caviar-single-dish:before {
     position: absolute;
     height: 100%;
     background-image: url(img/core-img/special-dots.png);
@@ -989,112 +967,8 @@ li {
     left: -50px;
     z-index: -1;
     background-repeat: no-repeat;
-}
+}*/
 
-/* Awards Area CSS */
-
-.caviar-awards-area {
-    padding-bottom: 200px;
-}
-
-.caviar-awards-area .section-heading {
-    margin-bottom: 0;
-}
-
-.testimonials-content {
-    padding: 70px 100px;
-    background-color: #fff;
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
-}
-
-/* Testimonials Area CSS */
-
-.caviar-testimonials-area {
-    padding-bottom: 200px;
-}
-
-.single-testimonial {
-    padding: 0 35px;
-}
-
-.testimonial-thumb-name {
-    margin-bottom: 30px;
-}
-
-.testimonial-thumb-name > img {
-    width: 80px!important;
-    height: 80px!important;
-    margin-right: 25px;
-    border-radius: 50%;
-}
-
-.testimonial-thumb-name .tes-name > h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
-}
-
-.testimonial-thumb-name .tes-name > p {
-    line-height: 1;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: rgba(0, 0, 0, 0.6);
-    font-size: 12px;
-    font-weight: 600;
-    font-family: 'Work Sans', sans-serif;
-    margin-bottom: 0;
-}
-
-.caviar-testimonials-slides .center .single-testimonial {
-    border-left: 1px solid #eaeaea;
-    border-right: 1px solid #eaeaea;
-}
-
-/* Reservation Area CSS */
-
-.caviar-reservation-area,
-.caviar-contact-area {
-    overflow-x: hidden;
-}
-
-.reservation-form-area,
-.contact-form-area {
-    width: calc(50% - 100px);
-}
-
-.reservation-side-thumb {
-    width: calc(50% + 100px);
-}
-
-.reservation-form,
-.contact-form {
-    width: 390px;
-    margin-right: 67.5px;
-}
-
-.reservation-form .form-control,
-.contact-form .form-control {
-    border: none;
-    border-bottom: 1px solid #c1c1c1;
-    border-radius: 0;
-    margin-bottom: 15px;
-    padding: 15px 0;
-    font-size: 14px;
-    line-height: 1;
-    background-color: transparent;
-    color: rgba(51, 51, 51, 0.60);
-}
-
-.reservation-form .form-control:focus,
-.contact-form .form-control:focus {
-    box-shadow: none;
-    color: rgba(51, 51, 51, 1);
-}
-
-.reservation-form textarea.form-control,
-.contact-form textarea.form-control {
-    border: none;
-    height: 120px;
-}
 
 /* Footer Area CSS */
 
@@ -1103,6 +977,13 @@ li {
     padding: 40px 0;
     text-align: center;
 }
+
+.caviar-chop-area {
+    background-color: #eb3349;
+    padding: 40px 0;
+    text-align: center;
+}
+
 
 .caviar-footer-area .navbar-brand {
     font-size: 30px;
@@ -1115,221 +996,3 @@ li {
     margin-bottom: 0;
 }
 
-/* Breadcumb Area CSS */
-
-.breadcumb-area {
-    position: relative;
-    z-index: 1;
-    height: 555px;
-}
-
-.breadcumb-content {
-    padding-top: 100px;
-}
-
-.breadcumb-content h2 {
-    color: #fff;
-    font-size: 60px;
-    line-height: 1;
-    margin-bottom: 70px;
-}
-
-.breadcumb-area:before {
-    width: calc(50% - 112px);
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-    content: "";
-    position: absolute;
-}
-
-/* Menu Area CSS */
-
-.caviar-projects-menu {
-    margin-bottom: 80px;
-    position: relative;
-    z-index: 1;
-}
-
-.portfolio-menu button {
-    border: none;
-    background-color: transparent;
-    font-size: 12px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin: 0 15px;
-    cursor: pointer;
-    color: rgba(0, 0, 0, 0.60);
-    font-family: 'Work Sans', sans-serif;
-    outline: none;
-}
-
-.portfolio-menu button.active {
-    color: #ff0000;
-}
-
-.single_menu_item {
-    margin-bottom: 70px;
-}
-
-.single_menu_item:last-child {
-    margin-bottom: 0;
-}
-
-.dish-description {
-    margin: 0 70px;
-}
-
-.dish-description h3 {
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-
-.dish-description p {
-    margin-bottom: 0;
-}
-
-.dish-value > h3 {
-    color: #ff0000;
-    font-size: 30px;
-    margin-bottom: 0;
-}
-
-.food-menu-title > h2 {
-    font-size: 150px;
-    color: rgba(0, 0, 0, 0.05);
-    -webkit-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-    position: relative;
-    z-index: 1;
-    top: 420px;
-}
-
-.caviar-menu-slides .owl-nav {
-    width: 100%;
-    height: 150px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-}
-
-.caviar-menu-slides .owl-nav .owl-prev,
-.caviar-menu-slides .owl-nav .owl-next {
-    width: 44px;
-    height: 44px;
-    background-color: rgba(51, 51, 51, 0.5);
-    border-radius: 50%;
-    line-height: 42px;
-    font-size: 20px;
-    color: #fff;
-    margin-right: 30px;
-    text-align: center;
-    -webkit-transition-duration: 500ms;
-    transition-duration: 500ms;
-}
-
-.caviar-menu-slides .owl-nav .owl-prev:hover,
-.caviar-menu-slides .owl-nav .owl-next:hover {
-    background-color: rgba(51, 51, 51, 1);
-}
-
-.caviar-menu-slides .owl-nav .owl-next {
-    margin-right: 0;
-}
-
-/* Contact Area CSS */
-
-.breadcumb-content > p {
-    color: #fff;
-    font-size: 14px;
-    font-weight: 600;
-    margin-bottom: 20px;
-}
-
-.breadcumb-content p i {
-    width: 35px;
-}
-
-.breadcumb-content p a {
-    color: #fff;
-    margin-right: 15px;
-    display: inline-block;
-}
-
-/* Google Maps Area CSS */
-
-.caviar-map-area {
-    width: calc(50% + 125px);
-    height: 500px;
-    position: relative;
-    z-index: 1;
-}
-
-#googleMap {
-    width: 100%;
-    height: 100%;
-}
-
-.contact-form-title p {
-    font-size: 12px;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 2px;
-    color: #ff0000;
-    margin-bottom: 40px;
-    font-family: 'Work Sans', sans-serif;
-}
-
-/* Regular Page Area CSS */
-
-.regular-page-content .post-title h2 {
-    font-size: 36px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-}
-
-.regular-page-content .post-title > a {
-    color: #ff0000;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-family: 'Work Sans', sans-serif;
-}
-
-.regular-page-content .post-title {
-    margin-bottom: 50px;
-}
-
-blockquote {
-    margin: 50px 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-}
-
-blockquote img {
-    width: 30px;
-    margin-right: 40px;
-    padding-top: 12px;
-}
-
-.blockquote-content h6 {
-    line-height: 2;
-}
-
-.blockquote-content p {
-    color: rgba(0, 0, 0, 0.6);
-    margin-bottom: 0;
-    font-weight: 600;
-}
