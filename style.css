@@ -232,7 +232,7 @@ li {
     background-size: cover;
 }
 
-.bg-overlay {
+/*.bg-overlay {
     position: relative;
     z-index: 1;
 }
@@ -250,7 +250,7 @@ li {
 
 .bg-gray {
     background-color: #f9f9f9;
-}
+}*/
 
 .caviar-btn {
     font-family: 'Work Sans', sans-serif;
